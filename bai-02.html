@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Câu 1: Bài tập về thẻ video</h2>
+    <p><b>Yêu cầu:</b> Tạo thư mục đặt tên là videos, sau đó để video bất kỳ vào thư mục videos đó. Tiếp theo, chèn video đó vào trang web bằng cách sử dụng thẻ video và thẻ source. Đường dẫn video là dạng relative (Đường dẫn tương đối). Đặt kích thước video có width bằng 720 và height bằng 405 (tương đương tỷ lệ 16/9)</p>
+
+    <!-- <video src="/assets/video.mp4" controls></video> -->
+
+    <video controls width="720" height="405">
+        <source src="/assets/video.mp4" type="video/mp4">
+    </video>
+
+    <h2>Câu 2: Bài tập về thẻ table</h2>
+    <style>
+        table,th,td {
+            border: 1px solid, #ddd;
+        }
+
+        th,td {
+            padding: 10px;
+        }
+    </style>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">Hóa đơn số 1234</th>
+                <th>Ngày 20/11/2022</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td colspan="2">
+                    <b>Thông tin khách hàng</b> <br>
+                    <p>Họ tên: Lê Quốc Đạt</p>
+                    <p>Số điện thoại: 0123456789</p>
+                    <p>Địa chỉ: số 123, đường Abc, thành phố Hà Nội.</p>
+                </td>
+                <td colspan="2">
+                    <b>Thông tin vận chuyển đơn hàng</b> <br>
+                    <p>Họ tên: Lê Quốc Đạt</p>
+                    <p>Số điện thoại: 0987654321</p>
+                    <p>Địa chỉ: số 234, đường Xyz, thành phố Hà Nội.</p>
+                </td>
+            </tr>
+            
+            <tr>
+                <td><b>Tên sản phẩm</b></td>
+                <td><b>Số lượng</b></td>
+                <td><b>Đơn giá</b></td>
+                <td><b>Thành tiền</b></td>
+            </tr>
+
+            <tr>
+                <td>Giày nam cao cấp</td>
+                <td>2</td>
+                <td>800.000đ</td>
+                <td>1.600.000đ</td>
+            </tr>
+
+            <tr>
+                <td>Giày nữ cao cấp</td>
+                <td>1</td>
+                <td>500.000đ</td>
+                <td>1.000.000đ</td>
+            </tr>
+
+            <tr>
+                <td colspan="3"><b>Tạm tính</b></td>
+                <td>2.600.000đ</td>
+            </tr>
+
+            <tr>
+                <td colspan="3"><b>Thuế VAT 10%</b></td>
+                <td>260.000đ</td>
+            </tr>
+
+            <tr>
+                <td colspan="3"><b>Tổng tiền</b></td>
+                <td>2.860.000đ</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Câu 4: Bài tập về thẻ iframe</h2>
+    <p><b>Yêu cầu:</b> Nhúng bản đồ và nhúng video youtube bất kỳ vào trang web.</p>
+    
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pIsOTB43pXc" title="Bài Toán Người Du Lịch | Thuật Toán Quay Lui Nhánh Cận" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102087.23897079719!2d105.71381809999997!3d19.266202050000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31370a954eac9811%3A0x771ffcbbf2d43bea!2zVHguIEhvw6BuZyBNYWksIE5naOG7hyBBbiwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1720970718639!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>
